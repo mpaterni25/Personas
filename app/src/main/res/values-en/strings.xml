@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personas</string>
+    <string name="apellido">Last Name</string>
+    <string name="borrar">Clear</string>
+    <string name="edad">Age</string>
+    <string name="futbol">Soccer</string>
+    <string name="leer">Read</string>
+    <string name="listar">List</string>
+    <string name="nombre">Name</string>
+    <string name="numero">No.</string>
+    <string name="pasa_tiempo">Hoobie</string>
+    <string name="registrar">Register</string>
+    <string name="titulo">REGISTER</string>
+    <string name="video_juegos">Video Games</string>
+</resources>
