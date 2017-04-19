@@ -1,6 +1,7 @@
 package com.example.android.personas;
 
 import android.content.res.Resources;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -43,7 +44,16 @@ public class Registro extends AppCompatActivity {
          if (videoJuegos.isChecked())aux = aux+ ", "+res.getString(R.string.video_juegos);
          Persona p= new Persona(nombre,apellido,ed,aux);
          p.guardar();
+
+         new AlertDialog.Builder(this).setMessage(res.getString(R.string.mensaje)).show();
+         Limpiar();
+
      }
+
+    public void borrar (View v){
+        Limpiar();
+    }
+
 
     public void Limpiar(){
         nomb.setText("");
@@ -52,6 +62,8 @@ public class Registro extends AppCompatActivity {
         leer.setChecked(true);
         futbol.setChecked(false);
         videoJuegos.setChecked(false);
+        nomb.requestFocus();
+
     }
 
 }
