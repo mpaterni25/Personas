@@ -44,4 +44,14 @@ public class Registro extends AppCompatActivity {
          Persona p= new Persona(nombre,apellido,ed,aux);
          p.guardar();
      }
+
+    public void Limpiar(){
+        nomb.setText("");
+        apell.setText("");
+        edad.setText("");
+        leer.setChecked(true);
+        futbol.setChecked(false);
+        videoJuegos.setChecked(false);
+    }
+
 }
