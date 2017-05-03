@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
                     case 1:
                         i = new Intent(MainActivity.this,Listado.class);
                         startActivity(i);
+                        break;
+                    case 2:
+                        i = new Intent(MainActivity.this,ListarPersonas.class);
+                        startActivity(i);
                 }
             }
         });

@@ -15,12 +15,9 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
+        android:layout_alignParentEnd="true"
+        tools:ignore="UselessLeaf">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
     </ScrollView>
 
     <LinearLayout
@@ -92,7 +89,8 @@
                 android:id="@+id/cmdRegistrar"
                 android:layout_weight="1"
                 android:text="@string/registrar"
-                android:onClick="registrar" />
+                android:onClick="registrar"
+                tools:ignore="ButtonStyle" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -100,7 +98,8 @@
                 android:id="@+id/cmdBorar"
                 android:layout_weight="1"
                 android:text="@string/borrar"
-                android:onClick="borrar" />
+                android:onClick="borrar"
+                tools:ignore="ButtonStyle" />
         </LinearLayout>
 
     </LinearLayout>

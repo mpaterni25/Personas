@@ -13,8 +13,10 @@
     <string name="pasa_tiempo">Pasa Tiempo</string>
     <string name="listar">Listar</string>
     <string name="mensaje">Persona Guardada exitosamente!</string>
+    <string name="mostrar">Mostrar en tabla</string>
     <string-array name="opciones">
         <item>@string/registrar</item>
         <item>@string/listar</item>
+        <item>@string/mostrar</item>
     </string-array>
 </resources>
