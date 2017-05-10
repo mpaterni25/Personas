@@ -23,7 +23,7 @@ public class Listado extends AppCompatActivity {
 
 
         tabla = (TableLayout)findViewById(R.id.tblPersona);
-        personas = Datos.getPersonas();
+        personas = Datos.traerPersonas(getApplicationContext());
 
         for (int i = 0; i < personas.size(); i++){
             TableRow fila = new TableRow(this);
